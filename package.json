@@ -2,39 +2,34 @@
   "name": "hubot-connectwise_slack",
   "description": "A hubot script to connect ConnectWise and Slack",
   "version": "0.1.0",
-  "author": {
-    "name": "John Vernon <john.vernon@webteks.com>",
-    "url": "https://www.webteks.com/"
-  },
+  "author": "John Vernon <john.vernon@webteks.com> (https://www.webteks.com/)",
   "Contributors": [
     {
-    "name": "Dustin Ashby"
+      "name": "Dustin Ashby"
     },
     {
-    "name": "Charles Russell"
+      "name": "Charles Russell"
     }
   ],
-  "license": [
-  {
-    "type": "MIT",
-    "url": "http://opensource.org/licenses/mit-license.php"
-  }
-],
-  "keywords": ["hubot","hubot-scripts","slack","connectwise"],
-
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "slack",
+    "connectwise"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/webteks/hubot-Connectwise_Slack.git"
   },
-
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-hubot-connectwise_slack/issues"
+    "url": "https://github.com/webteks/hubot-connectwise_slack/issues"
   },
-
   "dependencies": {
-    "coffee-script": "~1.6"
+    "coffee-script": "~1.6",
+    "hubot-slack": "^3.3.0",
+    "hubot-redis-brain": "0.0.3"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -45,10 +40,12 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
+  },
+  "homepage": "https://github.com/webteks/hubot-Connectwise_Slack#readme",
+  "directories": {
+    "test": "test"
   }
 }
