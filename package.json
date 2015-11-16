@@ -1,5 +1,5 @@
 {
-  "name": "hubot-hubot-connectwise_slack",
+  "name": "hubot-connectwise_slack",
   "description": "A hubot script to connect ConnectWise and Slack",
   "version": "0.1.0",
   "author": {
