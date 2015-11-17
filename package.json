@@ -1,7 +1,7 @@
 {
   "name": "hubot-connectwise_slack",
   "description": "A hubot script to connect ConnectWise and Slack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "John Vernon <john.vernon@webteks.com> (https://www.webteks.com/)",
   "Contributors": [
     {
